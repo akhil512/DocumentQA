@@ -1,0 +1,5 @@
+model_path : "src/models/orca-mini-3b.ggmlv3.q4_0.bin"
+embeddings_path : "sentence-transformers/all-MiniLM-L6-v2"
+chunk_size: 1000
+chunk_overlap: 100
+vector_store_path: 'src/vector_store'
